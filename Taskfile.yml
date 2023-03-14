@@ -1,5 +1,8 @@
 ---
 version: "3"
+env:
+  JAVA_VERSION: 11
+  MAVEN_VERSION: 3.8.2
 tasks:
   # Static Analysis
   check:
@@ -20,3 +23,21 @@ tasks:
       - trivy fs .
       - semgrep --config=p/security-audit .
       - semgrep --config=p/secrets .
+  # Build
+  build:host:
+    summary: Build on host
+    desc: Build on host
+    cmds:
+      - mvn clean install -Denforcer.fail=false
+  build:container:
+    summary: Build in container
+    desc: Build in container
+    cmds:
+      - rm -rf target && mkdir target
+      - docker pull maven:$MAVEN_VERSION-openjdk-$JAVA_VERSION
+      - docker build . --target target --build-arg MAVEN_PHASE="clean install" --build-arg
+        MAVEN_VERSION="${MAVEN_VERSION}" --build-arg JAVA_VERSION="${JAVA_VERSION}" --build-arg
+        ENFORCER_FAIL=false --output type=local,dest=target
+      - docker build . --target status --build-arg MAVEN_PHASE="clean install" --build-arg
+        MAVEN_VERSION="${MAVEN_VERSION}" --build-arg JAVA_VERSION="${JAVA_VERSION}" --build-arg
+        ENFORCER_FAIL=false
