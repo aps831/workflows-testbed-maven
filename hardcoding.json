@@ -4,8 +4,11 @@
     "value": "3.8.2",
     "files": [
       {
-        "filePath": "Taskfile.yml",
-        "valuePath": ".env.MAVEN_VERSION"
+        "filePath": "Dockerfile",
+        "valuePath": ".FROM[0]",
+        "valuePrefix": "maven:",
+        "valueSuffix": "-openjdk",
+        "partialMatch": true
       },
       {
         "filePath": "pom.xml",
@@ -22,8 +25,11 @@
     "value": "11",
     "files": [
       {
-        "filePath": "Taskfile.yml",
-        "valuePath": ".env.JAVA_VERSION"
+        "filePath": "Dockerfile",
+        "valuePath": ".FROM[0]",
+        "valuePrefix": "openjdk-",
+        "valueSuffix": "-slim",
+        "partialMatch": true
       },
       {
         "filePath": "pom.xml",

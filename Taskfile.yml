@@ -1,8 +1,5 @@
 ---
 version: "3"
-env:
-  JAVA_VERSION: 11
-  MAVEN_VERSION: 3.8.2
 tasks:
   # Static Analysis
   check:
@@ -34,9 +31,10 @@ tasks:
     desc: Build in container
     cmds:
       - rm -rf target && mkdir target
-      - docker pull maven:$MAVEN_VERSION-openjdk-$JAVA_VERSION
-      - docker build . --target target --build-arg MAVEN_PHASE="clean install" --build-arg MAVEN_VERSION="${MAVEN_VERSION}" --build-arg JAVA_VERSION="${JAVA_VERSION}" --build-arg ENFORCER_FAIL=false --output type=local,dest=target
-      - docker build . --target status --build-arg MAVEN_PHASE="clean install" --build-arg MAVEN_VERSION="${MAVEN_VERSION}" --build-arg JAVA_VERSION="${JAVA_VERSION}" --build-arg ENFORCER_FAIL=false
+      - docker build . --target target --build-arg MAVEN_PHASE="clean install" --build-arg
+        ENFORCER_FAIL=false --output type=local,dest=target
+      - docker build . --target status --build-arg MAVEN_PHASE="clean install" --build-arg
+        ENFORCER_FAIL=false
   tool-versions:upgrade:repo:
     summary: Upgrade version in .tool-versions
     desc: Upgrade version in .tool-versions
