@@ -7,4 +7,4 @@ on:
       - "master"
 jobs:
   scan:
-    uses: aps831/workflows/.github/workflows/grype-fs-scan.yaml@fix/grype
+    uses: aps831/workflows/.github/workflows/grype-fs-scan.yaml@master
