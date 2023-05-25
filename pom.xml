@@ -24,6 +24,14 @@
 
 	</properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/aps831/workflows-testbed-maven</url>
+        </repository>
+    </distributionManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
