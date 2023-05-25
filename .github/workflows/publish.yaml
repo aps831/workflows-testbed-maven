@@ -1,0 +1,15 @@
+name: Publish package
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  build:
+    permissions:
+      contents: write
+      packages: write
+    uses: aps831/workflows/.github/workflows/publish-java.yaml@fix/maven-settings
+    with:
+      java-version: "11"
+    secrets:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
