@@ -8,7 +8,7 @@ jobs:
     permissions:
       contents: write
       packages: write
-    uses: aps831/workflows/.github/workflows/publish-java.yaml@fix/maven-settings
+    uses: aps831/workflows/.github/workflows/publish-java.yaml@master
     with:
       java-version: "11"
     secrets:
