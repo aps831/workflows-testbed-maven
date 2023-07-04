@@ -2,6 +2,26 @@
 name: Combine PRs
 on:
   workflow_dispatch:
+    inputs:
+      branchPrefix:
+        description: "Branch prefix to find combinable PRs based on"
+        required: true
+        default: "dependabot"
+      mustBeGreen:
+        description:
+          "Only combine PRs that are green (status is success). Set to false if repo does not run
+          checks"
+        type: boolean
+        required: true
+        default: false
+      combineBranchName:
+        description: "Name of the branch to combine PRs into"
+        required: true
+        default: "combine-prs-branch"
+      ignoreLabel:
+        description: "Exclude PRs with this label"
+        required: true
+        default: "no_combine_prs"
 jobs:
   scan:
     uses: aps831/workflows/.github/workflows/combine-prs.yaml@feat/pr-workflow
