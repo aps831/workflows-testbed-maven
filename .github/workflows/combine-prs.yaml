@@ -7,4 +7,4 @@ jobs:
     uses: aps831/workflows/.github/workflows/combine-prs.yaml@feat/pr-workflow
 permissions:
   contents: write
-  pull-requests: read
+  pull-requests: write
