@@ -1,0 +1,9 @@
+---
+name: Combine PRs
+on:
+  workflow_dispatch:
+jobs:
+  scan:
+    uses: aps831/workflows/.github/workflows/combine-prs.yaml@feat/pr-workflow
+permissions:
+  contents: read
