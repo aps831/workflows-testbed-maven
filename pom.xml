@@ -21,6 +21,7 @@
         <version.surefire-plugin>3.0.0-M9</version.surefire-plugin>
         <version.failsafe-plugin>3.0.0-M9</version.failsafe-plugin>
         <version.maven-enforcer-plugin>3.1.0</version.maven-enforcer-plugin>
+        <version.cyclonedx-maven-plugin>2.7.9</version.cyclonedx-maven-plugin>
 
 	</properties>
 
@@ -114,6 +115,23 @@
                         <include>integration/**/When*.java</include>
                     </includes>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.cyclonedx</groupId>
+                <artifactId>cyclonedx-maven-plugin</artifactId>
+                <version>${version.cyclonedx-maven-plugin}</version>
+                <configuration>
+                    <outputName>${project.artifactId}-cyclonedx</outputName>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>makeAggregateBom</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
 		</plugins>
