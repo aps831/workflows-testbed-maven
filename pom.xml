@@ -122,7 +122,7 @@
                 <artifactId>cyclonedx-maven-plugin</artifactId>
                 <version>${version.cyclonedx-maven-plugin}</version>
                 <configuration>
-                    <outputName>${project.artifactId}-cyclonedx</outputName>
+                    <outputName>${project.artifactId}-${project.version}-cyclonedx</outputName>
                 </configuration>
                 <executions>
                     <execution>
