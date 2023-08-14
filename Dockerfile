@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.3
-FROM maven:3.8.2-openjdk-11-slim@sha256:65fd85ac347fb1a6fa84c3383cc8c061e9b8c04e3d10cd61c6d46baa75dc5b11 AS build
+FROM maven:3.8-openjdk-18-slim@sha256:0ccb24680338459567324858307f64ccff55e4e5904487b9b376dcf672f6dafa AS build
 ARG ENFORCER_FAIL
 
 RUN groupadd -r -g 1000 maven && useradd -m -l -r -u 1000 -g maven maven
