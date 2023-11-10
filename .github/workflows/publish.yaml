@@ -8,8 +8,12 @@ jobs:
     permissions:
       contents: write
       packages: write
-    uses: aps831/workflows/.github/workflows/publish-java.yaml@master
+    uses: aps831/workflows/.github/workflows/publish-maven-in-docker-artificat.yaml@master
     with:
-      java-version: "11"
+      prerelease-branch: "prerelease"
+      update-branch: "chore/publish-update"
+      tag-prefix: "v"
+      templated-files: ""
+      settings-file: ""
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
