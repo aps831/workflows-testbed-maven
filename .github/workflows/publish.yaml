@@ -8,7 +8,7 @@ jobs:
     permissions:
       contents: write
       packages: write
-    uses: aps831/workflows/.github/workflows/publish-maven-in-docker-artificat.yaml@master
+    uses: aps831/workflows/.github/workflows/publish-maven-in-docker-artificat.yaml@refactor/build-release
     with:
       prerelease-branch: "prerelease"
       update-branch: "chore/publish-update"
