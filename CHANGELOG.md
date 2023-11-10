@@ -1,6 +1,6 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.10.0...v) (2023-11-10)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.11.0...v) (2023-11-10)
 
-## [0.10.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.1.0...v0.10.0) (2023-11-10)
+## [0.11.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.1.0...v0.11.0) (2023-11-10)
 
 
 ### Features
@@ -8,6 +8,7 @@
 * add templated doc ([b48f474](https://github.com/aps831/workflows-testbed-maven/commit/b48f4742e72f2fdeb2877632f5014d68e783d472))
 * fix branch ([3b7782a](https://github.com/aps831/workflows-testbed-maven/commit/3b7782a5aa1babcf84f6bb3386b89f11de22ecc7))
 * fix permissions ([b3e262a](https://github.com/aps831/workflows-testbed-maven/commit/b3e262aedf3b59561a4b52a618cf7b15d29e781d))
+* test ([ed06338](https://github.com/aps831/workflows-testbed-maven/commit/ed06338d8e1cb40f70a764a6139ce08bb31d012c))
 * test ([bec2735](https://github.com/aps831/workflows-testbed-maven/commit/bec27353214b135f63100c7e1e3e780104d74d6c))
 * test ([6052a1e](https://github.com/aps831/workflows-testbed-maven/commit/6052a1ed11a7e35590242f91b58311b6d413706a))
 * test ([b87a53a](https://github.com/aps831/workflows-testbed-maven/commit/b87a53af506ad4bfec1f420ea721f3a2e190dbee))
