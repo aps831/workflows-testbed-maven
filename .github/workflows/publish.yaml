@@ -8,6 +8,8 @@ jobs:
     permissions:
       contents: write
       packages: write
+      issues: write
+      pull-requests: write
     uses: aps831/workflows/.github/workflows/publish-maven-in-docker-artificat.yaml@refactor/build-release
     with:
       prerelease-branch: "prerelease"
