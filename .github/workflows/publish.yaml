@@ -15,7 +15,7 @@ jobs:
       prerelease-branch: "prerelease"
       update-branch: "chore/publish-update"
       tag-prefix: "v"
-      templated-files: ""
+      templated-files: "README.tpl.md"
       settings-file: ""
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
