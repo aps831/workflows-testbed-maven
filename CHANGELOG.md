@@ -1,6 +1,6 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.15.0...v) (2023-11-10)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.16.0...v) (2023-11-10)
 
-## [0.15.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.11.0...v0.15.0) (2023-11-10)
+## [0.16.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.11.0...v0.16.0) (2023-11-10)
 
 
 ### Features
@@ -8,6 +8,9 @@
 * test ([d7899b3](https://github.com/aps831/workflows-testbed-maven/commit/d7899b3ba6aacfdf8c0f60f3dd0692463c830f48))
 * test ci ([68f3740](https://github.com/aps831/workflows-testbed-maven/commit/68f37403f5db5205a2337bc07b30d60bc3b466f6))
 * test ci again ([054e24d](https://github.com/aps831/workflows-testbed-maven/commit/054e24d723ba15e2baf7189517ba8c87e209d149))
+* test more ([9cd3311](https://github.com/aps831/workflows-testbed-maven/commit/9cd3311381e4dce3fd8e849bd80b37dc1bdf0435))
+* test more ([6379379](https://github.com/aps831/workflows-testbed-maven/commit/63793796ee9866f03284e4786024d76651331d3f))
+* test more ([f750ae3](https://github.com/aps831/workflows-testbed-maven/commit/f750ae33b1c05bda2a2817ef5694750e805cbc2e))
 * test more ([1975b55](https://github.com/aps831/workflows-testbed-maven/commit/1975b5573b7966c48a515fb5a1d322c71f963c63))
 * test more and more ([78ea26a](https://github.com/aps831/workflows-testbed-maven/commit/78ea26a249357ad6fc927be4ff228e622e2ec547))
 * test more and more and more ([3d1ab02](https://github.com/aps831/workflows-testbed-maven/commit/3d1ab024b56fae0bd8af9fe3cc36e111edd4508f))
