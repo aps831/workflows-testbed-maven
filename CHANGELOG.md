@@ -1,10 +1,11 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.20.0...v) (2023-11-13)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.21.0...v) (2023-11-13)
 
-## [0.20.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.11.0...v0.20.0) (2023-11-13)
+## [0.21.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.11.0...v0.21.0) (2023-11-13)
 
 
 ### Features
 
+* add second templated file ([d970a03](https://github.com/aps831/workflows-testbed-maven/commit/d970a0391d4ab6a1b81b8d52b49c21bf3942128d))
 * test ([4555501](https://github.com/aps831/workflows-testbed-maven/commit/455550140a062bc4413374156c4ddfada7251844))
 * test ([33ef0a6](https://github.com/aps831/workflows-testbed-maven/commit/33ef0a609131c04f307d2b5d6e4363f470c1cbf4))
 * test ([5e092d3](https://github.com/aps831/workflows-testbed-maven/commit/5e092d3e22631dc197011203e3c5021e850b7ee9))
