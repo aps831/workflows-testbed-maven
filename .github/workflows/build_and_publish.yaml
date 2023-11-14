@@ -1,8 +1,10 @@
-name: Publish package
+name: Build and Publish Package
 on:
   push:
     branches:
       - "master"
+      - "prerelease"
+  pull_request: {}
 jobs:
   build:
     permissions:
