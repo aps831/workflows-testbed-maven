@@ -1,4 +1,11 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.27.0...v) (2023-11-14)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.0...v) (2023-11-14)
+
+## [0.28.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.27.0...v0.28.0) (2023-11-14)
+
+
+### Features
+
+* test ([a908770](https://github.com/aps831/workflows-testbed-maven/commit/a90877094e195ae65481dc06a22ab9300ab682af))
 
 ## [0.27.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.25.0...v0.27.0) (2023-11-14)
 
