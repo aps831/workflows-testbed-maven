@@ -1,4 +1,43 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.0...v) (2023-11-14)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.1-e71125f...v) (2023-11-15)
+
+### [0.28.1-e71125f](https://github.com/aps831/workflows-testbed-maven/compare/v0.29.0-d310503...v0.28.1-e71125f) (2023-11-15)
+
+
+### Features
+
+* test ([e71125f](https://github.com/aps831/workflows-testbed-maven/commit/e71125fd2a11a5290c88672d97b119c4e6eeee72))
+* test ([a971d8a](https://github.com/aps831/workflows-testbed-maven/commit/a971d8abdfcad1c4f47168c796d5a68fa6b3eeea))
+* test ([43704be](https://github.com/aps831/workflows-testbed-maven/commit/43704bee179aac978fd6627dd9d27e97790b66a6))
+* test ([8a00e14](https://github.com/aps831/workflows-testbed-maven/commit/8a00e14423f6afd2bc76bd89c57ac96598976eff))
+* test ([c967796](https://github.com/aps831/workflows-testbed-maven/commit/c967796a20cea4af6ea60ef08bd74d55a145aa23))
+* test ([a1c30d8](https://github.com/aps831/workflows-testbed-maven/commit/a1c30d83d711949274959955afe581893d56c9d3))
+* test ([bcee6c8](https://github.com/aps831/workflows-testbed-maven/commit/bcee6c8f89773092dd57b3c65b78e9792a304289))
+* test ([87a9ba7](https://github.com/aps831/workflows-testbed-maven/commit/87a9ba7f8b4b88fe4e2dc33fdbda2d138603a6cc))
+* test ([3b5b371](https://github.com/aps831/workflows-testbed-maven/commit/3b5b37150f03fe43c63734700a8ff1058ff6e5d6))
+* test ([2777810](https://github.com/aps831/workflows-testbed-maven/commit/27778105de7fc58170fd2aaaa10f4dce14a39773))
+* test ([b0b3c7e](https://github.com/aps831/workflows-testbed-maven/commit/b0b3c7ee69d47edc59741eada646417ea79c2dbf))
+* test ([20f995c](https://github.com/aps831/workflows-testbed-maven/commit/20f995c0cedc90239ef98da76c83f2ae3b520007))
+* test ([2c577f2](https://github.com/aps831/workflows-testbed-maven/commit/2c577f2d018c581b47f069b739f8cfe011499053))
+* test ([946b9ca](https://github.com/aps831/workflows-testbed-maven/commit/946b9ca018ea6eb318802fdc349f8bd43f838bb5))
+* test ([c91f9de](https://github.com/aps831/workflows-testbed-maven/commit/c91f9de74b85c0c80aaa68e6618ff0258d141d1d))
+* test ([dc6729b](https://github.com/aps831/workflows-testbed-maven/commit/dc6729b5b207e671a8d20164dfe0ceda4ea7e8fc))
+* test ([48220ce](https://github.com/aps831/workflows-testbed-maven/commit/48220ced158c5da9ca3afb81fdde25c1cc542d6f))
+* test ([4ff3b3c](https://github.com/aps831/workflows-testbed-maven/commit/4ff3b3c95235654bc8050d707b652facc583ca42))
+* test ([4975f02](https://github.com/aps831/workflows-testbed-maven/commit/4975f02c8367cf812c6102a5de986a13a84d9b66))
+* test ([a354667](https://github.com/aps831/workflows-testbed-maven/commit/a3546672260e95a580247eb8124e1399365c966e))
+
+## [0.29.0-d310503](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.0...v0.29.0-d310503) (2023-11-14)
+
+
+### Features
+
+* test ([d310503](https://github.com/aps831/workflows-testbed-maven/commit/d310503a2471eaa7929cd0f116c847510bdeb380))
+* test ([bb5944b](https://github.com/aps831/workflows-testbed-maven/commit/bb5944b80b78386b8e796170fe6bb6cc6489343a))
+* test ([f1aa3ab](https://github.com/aps831/workflows-testbed-maven/commit/f1aa3ab355e8ee45ce19aac8fc896a05ed14bc86))
+* test ([c111297](https://github.com/aps831/workflows-testbed-maven/commit/c111297a849da0175b47c47df6385981fc0cd927))
+* test ([d3003b0](https://github.com/aps831/workflows-testbed-maven/commit/d3003b0112ec4d9759866fdf1a7a17877429a4db))
+* test parent pom ([c967df9](https://github.com/aps831/workflows-testbed-maven/commit/c967df9d41a53fd5598ec01ecabcfca237451eb6))
+* tidy up [skip ci] ([a451835](https://github.com/aps831/workflows-testbed-maven/commit/a45183595e406348e9a304d6d968a046034f43af))
 
 ## [0.28.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.27.0...v0.28.0) (2023-11-14)
 
