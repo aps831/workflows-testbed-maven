@@ -1,4 +1,13 @@
-## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.0...v) (2023-11-14)
+## [](https://github.com/aps831/workflows-testbed-maven/compare/v0.29.0...v) (2023-11-15)
+
+## [0.29.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.28.0...v0.29.0) (2023-11-15)
+
+
+### Features
+
+* test ([9e20eeb](https://github.com/aps831/workflows-testbed-maven/commit/9e20eeb3286dfc088800ee581f8eef37b9bd21ec))
+* test parent pom ([c967df9](https://github.com/aps831/workflows-testbed-maven/commit/c967df9d41a53fd5598ec01ecabcfca237451eb6))
+* tidy up [skip ci] ([a451835](https://github.com/aps831/workflows-testbed-maven/commit/a45183595e406348e9a304d6d968a046034f43af))
 
 ## [0.28.0](https://github.com/aps831/workflows-testbed-maven/compare/v0.27.0...v0.28.0) (2023-11-14)
 
