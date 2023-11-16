@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.34.0] - 2023-11-16
+
+### Features
+
+- Another test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.30.1-SNAPSHOT [skip ci]
+
 ## [0.30.0] - 2023-11-16
 
 ### Features
@@ -15,6 +31,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.29.4-SNAPSHOT [skip ci]
+- Update for v0.30.0 release [skip ci]
 
 ## [0.29.3] - 2023-11-15
 
@@ -132,26 +149,6 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-- Test ci again
-- Test
-- Test more
-- Test more and more
-- Test more and more and more
-- Test more
-- Test more
-- Test more
-- Test publish
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
-- Test
 - Test
 - Test
 - Test
@@ -161,16 +158,6 @@ All notable changes to this project will be documented in this file.
 
 ### Miscellaneous Tasks
 
-- Update for v0.12.0 release [skip ci]
-- Update pom version to 0.12.1-SNAPSHOT [skip ci]
-- Update for v0.13.0 release [skip ci]
-- Update pom version to 0.13.1-SNAPSHOT [skip ci]
-- Update for v0.14.0 release [skip ci]
-- Update pom version to 0.14.1-SNAPSHOT [skip ci]
-- Update for v0.15.0 release [skip ci]
-- Update pom version to 0.15.1-SNAPSHOT [skip ci]
-- Update for v0.16.0 release [skip ci]
-- Update pom version to 0.16.1-SNAPSHOT [skip ci]
 - Update for v0.17.0 release [skip ci]
 - Update pom version to 0.17.1-SNAPSHOT [skip ci]
 - Update for v0.20.0 release [skip ci]
