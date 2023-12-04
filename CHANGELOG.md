@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.36.0] - 2023-12-04
+
+### Features
+
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+- Test
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.35.1-SNAPSHOT [skip ci]
+
 ## [0.35.0] - 2023-12-04
 
 ### Features
@@ -173,8 +195,6 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-- Test
-- Test
 - Add second templated file
 - Correct workflow
 
