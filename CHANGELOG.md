@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.35.0] - 2023-12-04
+
+### Features
+
+- Test
+- Test
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.34.2-SNAPSHOT [skip ci]
+- Update workflow name [skip ci]
+
 ## [0.34.1] - 2023-11-16
 
 ### Bug Fixes
@@ -11,6 +23,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.34.1-SNAPSHOT [skip ci]
+- Update for v0.34.1 release [skip ci]
 
 ## [0.34.0] - 2023-11-16
 
@@ -160,7 +173,6 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-- Test
 - Test
 - Test
 - Add second templated file
