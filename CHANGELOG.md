@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.40.0] - 2023-12-15
+## [0.40.0] - 2023-12-16
 
 ### Features
 
@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 - Update pom version to 0.39.1-SNAPSHOT [skip ci]
 - Use issue comment trigger [skip ci]
+- Update for v0.40.0 release [skip ci]
 
 ## [0.39.0] - 2023-12-04
 
