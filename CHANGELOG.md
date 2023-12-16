@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - Test
 
+### Miscellaneous Tasks
+
+- Update for v0.41.0 release [skip ci]
+
 ## [0.40.0] - 2023-12-16
 
 ### Features
