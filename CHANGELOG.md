@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file.
 - Update for v0.40.0 release [skip ci]
 - Update for v0.40.0 release [skip ci]
 - Update for v0.40.0 release [skip ci]
+- Update for v0.40.0 release [skip ci]
 
 ## [0.39.0] - 2023-12-04
 
