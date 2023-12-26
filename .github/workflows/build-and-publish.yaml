@@ -1,13 +1,10 @@
+---
 name: Build and Publish Package
 on:
-  # push:
-  #   branches:
-  #     - "master"
-  #     - "prerelease"
-  pull_request: {}
-  issue_comment:
-    types:
-      - created
+  push:
+    branches:
+      - "master"
+      - "prerelease"
 jobs:
   build:
     permissions:
@@ -15,13 +12,8 @@ jobs:
       packages: write
       issues: write
       pull-requests: write
-      actions: read
-    uses: aps831/workflows/.github/workflows/publish-maven-in-docker-jar-artifact.yaml@refactor/build-release
+    uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact.yaml@master
     with:
-      branch-prerelease: "prerelease"
-      branch-update-base: "chore/publish-update"
-      release-on-default-branch: false
-      tag-prefix: "v"
       templated-files: |
         README.tpl.md
         README2.tpl.md
