@@ -1,1 +1,1 @@
-Version v0.43.0
+Version v0.44.0
