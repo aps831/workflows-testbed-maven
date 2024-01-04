@@ -7,7 +7,6 @@ on:
   release:
     types:
       - published
-      - edited
 permissions:
   contents: read
 jobs:
