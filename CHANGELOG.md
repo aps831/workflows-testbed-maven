@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.53.0] - 2024-01-14
+
+### Features
+
+- Test again
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.52.1-SNAPSHOT [skip ci]
+
 ## [0.52.0] - 2024-01-14
 
 ### Features
@@ -11,6 +21,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.51.1-SNAPSHOT [skip ci]
+- Update for v0.52.0 release [skip ci]
 
 ## [0.51.0] - 2024-01-04
 
@@ -237,7 +248,6 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-- Test
 - Test
 
 ### Miscellaneous Tasks
