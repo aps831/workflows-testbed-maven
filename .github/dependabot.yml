@@ -1,5 +1,11 @@
 ---
 version: 2
+registries:
+  maven-github:
+    type: maven-repository
+    url: https://maven.pkg.github.com/aps831
+    username: aps831
+    password: ${{secrets.DEPENDABOT_ACCESS_TOKEN}}
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -10,6 +16,34 @@ updates:
     labels:
       - "github_actions"
       - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "maven"
+    directory: "/"
+    registries: "*"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "aps831"
+    labels:
+      - "dependencies"
+      - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+      development-dependencies:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      - dependency-name: "io.vavr:vavr"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
@@ -19,3 +53,63 @@ updates:
     labels:
       - "dependencies"
       - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "aps831"
+    labels:
+      - "dependencies"
+      - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+      development-dependencies:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      - dependency-name: "faker"
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "aps831"
+    labels:
+      - "dependencies"
+      - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "aps831"
+    labels:
+      - "dependencies"
+      - "no_ci_cd_run"
+    commit-message:
+      prefix: "chore"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+      development-dependencies:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
