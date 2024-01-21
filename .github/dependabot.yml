@@ -1,9 +1,9 @@
 ---
 version: 2
 registries:
-  maven-github:
+  github-maven-cif-json-import:
     type: maven-repository
-    url: https://maven.pkg.github.com/aps831
+    url: https://maven.pkg.github.com/aps831/cif-json-import
     username: aps831
     password: ${{secrets.DEPENDABOT_ACCESS_TOKEN}}
 updates:
