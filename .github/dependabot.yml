@@ -12,6 +12,11 @@ updates:
       - "no_ci_cd_run"
     commit-message:
       prefix: "chore"
+    groups:
+      patch-minor-dependencies:
+        update-types:
+          - "minor"
+          - "patch"
   - package-ecosystem: "maven"
     directory: "/"
     registries: "*"
@@ -38,72 +43,3 @@ updates:
     ignore:
       - dependency-name: "io.vavr:vavr"
         update-types: ["version-update:semver-major"]
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    assignees:
-      - "aps831"
-    labels:
-      - "dependencies"
-      - "no_ci_cd_run"
-    commit-message:
-      prefix: "chore"
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    assignees:
-      - "aps831"
-    labels:
-      - "dependencies"
-      - "no_ci_cd_run"
-    commit-message:
-      prefix: "chore"
-    groups:
-      production-dependencies:
-        dependency-type: "production"
-        update-types:
-          - "minor"
-          - "patch"
-      development-dependencies:
-        dependency-type: "development"
-        update-types:
-          - "minor"
-          - "patch"
-    ignore:
-      - dependency-name: "faker"
-        update-types: ["version-update:semver-major"]
-  - package-ecosystem: "terraform"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    assignees:
-      - "aps831"
-    labels:
-      - "dependencies"
-      - "no_ci_cd_run"
-    commit-message:
-      prefix: "chore"
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    assignees:
-      - "aps831"
-    labels:
-      - "dependencies"
-      - "no_ci_cd_run"
-    commit-message:
-      prefix: "chore"
-    groups:
-      production-dependencies:
-        dependency-type: "production"
-        update-types:
-          - "minor"
-          - "patch"
-      development-dependencies:
-        dependency-type: "development"
-        update-types:
-          - "minor"
-          - "patch"
