@@ -11,7 +11,7 @@ updates:
       - "github_actions"
       - "no_ci_cd_run"
     commit-message:
-      prefix: "chore"
+      prefix: "ci"
     groups:
       patch-minor-dependencies:
         update-types:
@@ -28,7 +28,7 @@ updates:
       - "dependencies"
       - "no_ci_cd_run"
     commit-message:
-      prefix: "chore"
+      prefix: "build"
     groups:
       production-dependencies:
         dependency-type: "production"
