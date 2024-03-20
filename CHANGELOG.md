@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.58.0] - 2024-03-20
+
+### Features
+
+- Test
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.57.1-SNAPSHOT [skip ci]
+
 ## [0.57.0] - 2024-03-20
 
 ### Features
@@ -24,6 +34,7 @@ All notable changes to this project will be documented in this file.
 - Update delete workflow runs permissions [skip ci]
 - Fix permissions for trunk
 - Add default value for enforcer fail in dockerfile [skip ci]
+- Update for v0.57.0 release [skip ci]
 
 ### Build
 
