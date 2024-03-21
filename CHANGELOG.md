@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.60.0] - 2024-03-21
+
+### Features
+
+- Test
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.59.1-SNAPSHOT [skip ci]
+- Test multi docker image changes
+
 ## [0.59.0] - 2024-03-20
 
 ### Features
@@ -11,6 +22,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.58.1-SNAPSHOT [skip ci]
+- Update for v0.59.0 release [skip ci]
 
 ## [0.58.0] - 2024-03-20
 
