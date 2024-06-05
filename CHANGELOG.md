@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.61.0] - 2024-06-05
+
+### Features
+
+- Wip [skip ci]
+- Wip
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.60.1-SNAPSHOT [skip ci]
+- Update branch [skip ci]
+- Upgrade trunk [skip ci]
+
+### Build
+
+- Update dockerignore
+
 ## [0.60.0] - 2024-03-21
 
 ### Features
@@ -12,6 +29,7 @@ All notable changes to this project will be documented in this file.
 
 - Update pom version to 0.59.1-SNAPSHOT [skip ci]
 - Test multi docker image changes
+- Update for v0.60.0 release [skip ci]
 
 ## [0.59.0] - 2024-03-20
 
