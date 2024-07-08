@@ -10,7 +10,7 @@
     <version.java>11</version.java>
     <version.maven>3.8.2</version.maven>
     <!-- Dependencies -->
-    <version.junit.jupiter>5.9.2</version.junit.jupiter>
+    <version.junit.jupiter>5.10.3</version.junit.jupiter>
     <!-- Plugins -->
     <version.maven-compiler-plugin>3.10.1</version.maven-compiler-plugin>
     <version.surefire-plugin>3.0.0-M9</version.surefire-plugin>
