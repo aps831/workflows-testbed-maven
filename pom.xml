@@ -12,11 +12,11 @@
     <!-- Dependencies -->
     <version.junit.jupiter>5.9.2</version.junit.jupiter>
     <!-- Plugins -->
-    <version.maven-compiler-plugin>3.10.1</version.maven-compiler-plugin>
-    <version.surefire-plugin>3.0.0-M9</version.surefire-plugin>
-    <version.failsafe-plugin>3.0.0-M9</version.failsafe-plugin>
-    <version.maven-enforcer-plugin>3.1.0</version.maven-enforcer-plugin>
-    <version.cyclonedx-maven-plugin>2.7.9</version.cyclonedx-maven-plugin>
+    <version.maven-compiler-plugin>3.13.0</version.maven-compiler-plugin>
+    <version.surefire-plugin>3.3.1</version.surefire-plugin>
+    <version.failsafe-plugin>3.3.1</version.failsafe-plugin>
+    <version.maven-enforcer-plugin>3.5.0</version.maven-enforcer-plugin>
+    <version.cyclonedx-maven-plugin>2.8.0</version.cyclonedx-maven-plugin>
   </properties>
   <distributionManagement>
     <repository>
