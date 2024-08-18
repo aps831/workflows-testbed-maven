@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.62.0] - 2024-08-18
+
+### Features
+
+- Wip [skip ci]
+- Wip [skip ci]
+- Test1
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.61.1-SNAPSHOT [skip ci]
+- Restore branch [skip ci]
+
 ## [0.61.0] - 2024-06-05
 
 ### Features
@@ -14,6 +27,7 @@ All notable changes to this project will be documented in this file.
 - Update pom version to 0.60.1-SNAPSHOT [skip ci]
 - Update branch [skip ci]
 - Upgrade trunk [skip ci]
+- Update for v0.61.0 release [skip ci]
 
 ### Build
 
