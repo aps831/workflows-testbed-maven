@@ -11,9 +11,23 @@ tasks:
     summary: Build in container
     desc: Build in container
     cmds:
-      - rm -rf target && mkdir target
-      - docker build . --target target --build-arg MAVEN_PHASE="clean install" --build-arg ENFORCER_FAIL=false --output type=local,dest=target
-      - docker build . --target status --build-arg MAVEN_PHASE="clean install" --build-arg ENFORCER_FAIL=false
+      - |
+        # Clean
+        rm -rf target && mkdir target
+
+        # Run socat
+        DOCKER_GATEWAY_HOST=$(ip -4 addr show docker0 | grep -Po 'inet \K[\d.]+')
+        docker run -d -p $DOCKER_GATEWAY_HOST:2375:2375 -v /var/run/docker.sock:/var/run/docker.sock --name socat alpine/socat tcp-listen:2375,reuseaddr,fork unix-connect:/var/run/docker.sock
+
+        # Build
+        docker build . --add-host host.docker.internal:host-gateway --target target --build-arg MAVEN_PHASE="clean install" --build-arg ENFORCER_FAIL=false --output type=local,dest=target
+
+        # Status
+        docker build . --add-host host.docker.internal:host-gateway --target status --build-arg MAVEN_PHASE="clean install" --build-arg ENFORCER_FAIL=false
+
+        # Stop socat
+        docker rm -f $(docker ps -aqf "name=^socat$")
+
   tool-versions:upgrade:repo:
     summary: Upgrade version in .tool-versions
     desc: Upgrade version in .tool-versions

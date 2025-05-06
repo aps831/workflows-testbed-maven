@@ -10,6 +10,10 @@ USER maven
 WORKDIR /app
 COPY --chown=maven:maven . /app
 
+# Docker
+ENV DOCKER_HOST=tcp://host.docker.internal:2375 \
+    TESTCONTAINERS_HOST_OVERRIDE=host.docker.internal
+
 ARG MAVEN_PHASE="clean install"
 RUN --mount=type=cache,uid=1000,gid=1000,target=/home/maven/.m2 echo "0" > EXIT_STATUS_FILE &&\
     mvn --batch-mode $MAVEN_PHASE -Denforcer.fail=$ENFORCER_FAIL || echo $? > EXIT_STATUS_FILE
