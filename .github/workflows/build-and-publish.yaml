@@ -16,8 +16,7 @@ jobs:
   build:
     uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact-v2.yaml@feat/docker
     with:
-      dockerfile-build: Dockerfile.build
-      dockerfile-prod: Dockerfile.prod
+      dockerfile: Dockerfile
       volumes: |
         .:/app
         $HOME/.m2:/home/maven/.m2
