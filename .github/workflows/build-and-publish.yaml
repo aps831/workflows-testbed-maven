@@ -14,7 +14,7 @@ permissions:
   id-token: write
 jobs:
   build:
-    uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact-v2.yaml@master
+    uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact-v2.yaml@feat/docker
     with:
       dockerfile-build: Dockerfile.build
       dockerfile-prod: Dockerfile.prod
