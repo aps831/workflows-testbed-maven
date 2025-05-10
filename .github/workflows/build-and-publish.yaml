@@ -14,11 +14,19 @@ permissions:
   id-token: write
 jobs:
   build:
-    uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact.yaml@master
+    uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact-v2.yaml@master
     with:
+      dockerfile-build: Dockerfile.build
+      dockerfile-prod: Dockerfile.prod
+      volumes: |
+        .:/app
+        $HOME/.m2:/home/maven/.m2
+      build-command: mvn --settings settings.xml --batch-mode clean install
       templated-files: |
         README.tpl.md
         README2.tpl.md
-      settings-file: ""
+      settings-file: "settings.xml"
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      GITHUB_USER_REF: ${{ github.actor }}
+      GITHUB_TOKEN_REF: ${{ secrets.ACCESS_TOKEN }}
