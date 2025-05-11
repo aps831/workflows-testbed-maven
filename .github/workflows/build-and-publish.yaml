@@ -19,7 +19,6 @@ jobs:
       dockerfile: Dockerfile
       volumes: |
         .:/app
-        $HOME/.m2:/home/maven/.m2
       build-command: mvn --settings settings.xml --batch-mode clean install
       templated-files: |
         README.tpl.md
@@ -27,5 +26,3 @@ jobs:
       settings-file: "settings.xml"
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      GITHUB_USER_REF: ${{ github.actor }}
-      GITHUB_TOKEN_REF: ${{ secrets.ACCESS_TOKEN }}
