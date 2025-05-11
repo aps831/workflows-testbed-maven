@@ -19,10 +19,10 @@ jobs:
       dockerfile: Dockerfile
       volumes: |
         .:/app
-      build-command: mvn --settings settings.xml --batch-mode clean install
+      build-command: mvn --batch-mode clean install
       templated-files: |
         README.tpl.md
         README2.tpl.md
-      settings-file: "settings.xml"
+      settings-file: ""
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
