@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.aps.work</groupId>
   <artifactId>testbed-maven</artifactId>
-  <version>0.73.0</version>
+  <version>0.73.1-SNAPSHOT</version>
   <properties>
     <!-- Project -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
