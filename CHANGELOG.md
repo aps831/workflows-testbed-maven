@@ -4,6 +4,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.74.0] - 2025-05-22
+
+### Features
+
+- Test ci
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.73.1-SNAPSHOT [skip ci]
+
 ## [0.73.0] - 2025-05-12
 
 ### Features
@@ -13,6 +23,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.72.1-SNAPSHOT [skip ci]
+- Update for v0.73.0 release [skip ci]
 
 ## [0.72.0] - 2025-05-11
 
