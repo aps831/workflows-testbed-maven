@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.75.0] - 2025-05-25
+
+### Features
+
+- Test deprecation warning
+- Test deprecation warning again
+- Reinstate v2
+
+### Miscellaneous Tasks
+
+- Update pom version to 0.74.1-SNAPSHOT [skip ci]
+
 ## [0.74.0] - 2025-05-22
 
 ### Features
@@ -13,6 +25,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update pom version to 0.73.1-SNAPSHOT [skip ci]
+- Update for v0.74.0 release [skip ci]
 
 ## [0.73.0] - 2025-05-12
 
