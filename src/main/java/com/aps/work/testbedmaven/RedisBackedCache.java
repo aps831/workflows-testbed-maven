@@ -1,13 +1,10 @@
-package com.aps.work.testbeddocker;
+package com.aps.work.testbedmaven;
 
 import com.google.gson.Gson;
 import redis.clients.jedis.Jedis;
 
 import java.util.Optional;
 
-/**
- * An implementation of {@link Cache} that stores data in Redis.
- */
 public class RedisBackedCache implements Cache {
 
     private final Jedis jedis;

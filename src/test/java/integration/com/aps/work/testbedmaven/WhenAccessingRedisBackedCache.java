@@ -1,7 +1,7 @@
 package integration.com.aps.work.testbedmaven;
 
-import com.aps.work.testbeddocker.Cache;
-import com.aps.work.testbeddocker.RedisBackedCache;
+import com.aps.work.testbedmaven.Cache;
+import com.aps.work.testbedmaven.RedisBackedCache;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

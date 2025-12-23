@@ -1,4 +1,4 @@
-package com.aps.work.testbeddocker;
+package com.aps.work.testbedmaven;
 
 import java.util.Optional;
 
