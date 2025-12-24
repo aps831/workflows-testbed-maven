@@ -8,7 +8,7 @@
     <!-- Project -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.java>11</version.java>
-    <version.maven>3.8.2</version.maven>
+    <version.maven>3.8.3</version.maven>
     <!-- Dependencies -->
     <version.redis>5.1.5</version.redis>
     <version.gson>2.11.0</version.gson>

@@ -17,7 +17,7 @@ jobs:
     uses: aps831/workflows/.github/workflows/build-and-publish-maven-in-docker-jar-artifact-v2.yaml@master
     with:
       dockerfile: Dockerfile
-      build-command: mvn --batch-mode clean install
+      build-command: mvn --batch-mode -Denforcer.fail=$WORKFLOW_CONTROL_RELEASE clean install
       templated-files: |
         README.tpl.md
         README2.tpl.md
