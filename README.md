@@ -1,1 +1,1 @@
-Version v0.77.0
+Version v0.78.0

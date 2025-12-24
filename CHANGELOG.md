@@ -1,5 +1,16 @@
 <!-- markdownlint-disable MD024 -->
 
+## [0.78.0] - 2025-12-24
+
+### 🚀 Features
+
+- Test enforcer fail
+- Another test of enforcer fail
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 0.77.1-SNAPSHOT [skip ci]
+
 ## [0.77.0] - 2025-12-23
 
 ### 🚀 Features
@@ -14,6 +25,7 @@
 
 - Update pom version to 0.76.1-SNAPSHOT [skip ci]
 - Set branch to master [skip ci]
+- Update for v0.77.0 release [skip ci]
 
 ## [0.76.0] - 2025-05-26
 
