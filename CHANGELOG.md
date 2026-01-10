@@ -1,5 +1,16 @@
 <!-- markdownlint-disable MD024 -->
 
+## [0.79.0] - 2026-01-10
+
+### 🚀 Features
+
+- Test release
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 0.78.1-SNAPSHOT [skip ci]
+- Update build command in workflow
+
 ## [0.78.0] - 2025-12-24
 
 ### 🚀 Features
@@ -10,6 +21,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update pom version to 0.77.1-SNAPSHOT [skip ci]
+- Update for v0.78.0 release [skip ci]
 
 ## [0.77.0] - 2025-12-23
 
@@ -168,42 +180,3 @@
 
 - Update pom version to 0.58.1-SNAPSHOT [skip ci]
 - Update for v0.59.0 release [skip ci]
-
-## [0.58.0] - 2024-03-20
-
-### 🚀 Features
-
-- Test
-
-### ⚙️ Miscellaneous Tasks
-
-- Update pom version to 0.57.1-SNAPSHOT [skip ci]
-- Update for v0.58.0 release [skip ci]
-
-## [0.57.0] - 2024-03-20
-
-### 🚀 Features
-
-- Test
-- Test
-- Test
-- Test
-
-### 💼 Other
-
-- Add default value for maven phase in dockerfile
-- Add default value for enforcer fail in dockerfile [skip ci]
-
-### ⚙️ Miscellaneous Tasks
-
-- Test new dependabot file
-- Test update from private registry
-- Add repo name to registry url
-- Remove dependency from private registry
-- Update dependabot [skip ci]
-- Upgrade trunk [skip ci]
-- Update dependabot commit message [skip ci]
-- Add licence
-- Update delete workflow runs permissions [skip ci]
-- Fix permissions for trunk
-- Update for v0.57.0 release [skip ci]
