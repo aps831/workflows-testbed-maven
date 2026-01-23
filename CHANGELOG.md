@@ -1,5 +1,15 @@
 <!-- markdownlint-disable MD024 -->
 
+## [1.2.0] - 2026-01-23
+
+### 🚀 Features
+
+- Initial stable release
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 1.1.1-SNAPSHOT [skip ci]
+
 ## [1.1.0] - 2026-01-23
 
 ### 🚀 Features
@@ -9,6 +19,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update pom version to 1.0.1-SNAPSHOT [skip ci]
+- Update for v1.1.0 release [skip ci]
 
 ## [1.0.0] - 2026-01-23
 
@@ -166,7 +177,6 @@
 
 ### 🚀 Features
 
-- Test2
 - Test3
 - Test4
 - Test
