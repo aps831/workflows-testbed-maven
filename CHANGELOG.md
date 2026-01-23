@@ -1,5 +1,15 @@
 <!-- markdownlint-disable MD024 -->
 
+## [0.81.0] - 2026-01-23
+
+### 🚀 Features
+
+- Test
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 0.80.1-SNAPSHOT [skip ci]
+
 ## [0.80.0] - 2026-01-10
 
 ### 🚀 Features
@@ -9,6 +19,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update pom version to 0.79.1-SNAPSHOT [skip ci]
+- Update for v0.80.0 release [skip ci]
 
 ## [0.79.0] - 2026-01-10
 
@@ -168,15 +179,3 @@
 - Update pom version to 0.60.1-SNAPSHOT [skip ci]
 - Update branch [skip ci]
 - Update for v0.61.0 release [skip ci]
-
-## [0.60.0] - 2024-03-21
-
-### 🚀 Features
-
-- Test
-
-### ⚙️ Miscellaneous Tasks
-
-- Update pom version to 0.59.1-SNAPSHOT [skip ci]
-- Test multi docker image changes
-- Update for v0.60.0 release [skip ci]
