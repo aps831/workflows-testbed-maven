@@ -1,5 +1,15 @@
 <!-- markdownlint-disable MD024 -->
 
+## [1.0.0] - 2026-01-23
+
+### 🚀 Features
+
+- Initial stable release
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 0.81.1-SNAPSHOT [skip ci]
+
 ## [0.81.0] - 2026-01-23
 
 ### 🚀 Features
@@ -9,6 +19,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update pom version to 0.80.1-SNAPSHOT [skip ci]
+- Update for v0.81.0 release [skip ci]
 
 ## [0.80.0] - 2026-01-10
 
@@ -161,21 +172,3 @@
 - Update pom version to 0.61.1-SNAPSHOT [skip ci]
 - Restore branch [skip ci]
 - Update for v0.70.0 release [skip ci]
-
-## [0.61.0] - 2024-06-05
-
-### 🚀 Features
-
-- Wip [skip ci]
-- Wip
-
-### 💼 Other
-
-- Update dockerignore
-- Upgrade trunk [skip ci]
-
-### ⚙️ Miscellaneous Tasks
-
-- Update pom version to 0.60.1-SNAPSHOT [skip ci]
-- Update branch [skip ci]
-- Update for v0.61.0 release [skip ci]
