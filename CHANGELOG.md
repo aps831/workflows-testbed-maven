@@ -1,5 +1,15 @@
 <!-- markdownlint-disable MD024 -->
 
+## [1.1.0] - 2026-01-23
+
+### 🚀 Features
+
+- Test
+
+### ⚙️ Miscellaneous Tasks
+
+- Update pom version to 1.0.1-SNAPSHOT [skip ci]
+
 ## [1.0.0] - 2026-01-23
 
 ### 🚀 Features
@@ -9,6 +19,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update pom version to 0.81.1-SNAPSHOT [skip ci]
+- Update for v1.0.0 release [skip ci]
 
 ## [0.81.0] - 2026-01-23
 
@@ -155,9 +166,6 @@
 
 ### 🚀 Features
 
-- Wip [skip ci]
-- Wip [skip ci]
-- Test1
 - Test2
 - Test3
 - Test4
@@ -169,6 +177,4 @@
 
 ### ⚙️ Miscellaneous Tasks
 
-- Update pom version to 0.61.1-SNAPSHOT [skip ci]
-- Restore branch [skip ci]
 - Update for v0.70.0 release [skip ci]
